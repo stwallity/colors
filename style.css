@@ -9,3 +9,36 @@ body {
   height: 100vh;
   display: flex;
 }
+
+.col {
+  flex: 1;
+  background: greenyellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.col h2 {
+  padding: 15px;
+  color: #fff;
+  margin: 10px;
+  border-radius: 10%;
+  transition: background 0.2s;
+}
+.col h2:hover {
+  background: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.col button {
+  border: none;
+  background: transparent;
+  font-size: 2em;
+  color: #fff;
+}
+
+.col button:hover {
+  background: rgba(0, 0, 0, 0.1);
+  transition: background 0.5s;
+}
