@@ -12,21 +12,23 @@ body {
 
 .col {
   flex: 1;
-  background: greenyellow;
+  background-color: greenyellow;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  border-right-color: aqua;
+  border-left-color: aqua;
 }
 
-.col h2 {
+.col h3 {
   padding: 15px;
-  color: #fff;
+  color: #444;
   margin: 10px;
   border-radius: 10%;
   transition: background 0.2s;
 }
-.col h2:hover {
+.col h3:hover {
   background: rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
@@ -41,4 +43,5 @@ body {
 .col button:hover {
   background: rgba(0, 0, 0, 0.1);
   transition: background 0.5s;
+  cursor: pointer;
 }
